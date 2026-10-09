@@ -1,0 +1,20 @@
+{
+  "name": "support-triage-ppa",
+  "private": true,
+  "type": "module",
+  "description": "Tiny Perceive ? Plan ? Act support triage demo (no API key for demo.mjs).",
+  "scripts": {
+    "start": "node demo.mjs",
+    "demo": "node demo.mjs",
+    "dev": "bdk dev",
+    "check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@cursor/bdk": "latest",
+    "zod": "^3.25.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "typescript": "6.0.3"
+  }
+}
